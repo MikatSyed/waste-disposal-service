@@ -1,0 +1,60 @@
+
+   .calendar{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   }
+
+   div.btns {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  grid-gap: 10px;
+  width: 280px;
+  margin-left: 30%;
+}
+.grid-item > button {
+  border: 1px solid grey;
+  height: 30px;
+  width: 68px;
+  background-color: white;
+  color: grey;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 6px;
+  border-radius: 9%;
+}
+.grid-item18 > button {
+  border: 1px solid grey;
+  width: 68px;
+  height: 30px;
+  padding: 10px;
+  background-color: white;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  border-radius: 9%;
+}
+div > button {
+  margin: auto 7px 5px 7px;
+}
+.grid-item18 > button {
+  margin: auto auto auto 49%;
+}
+.grid-item > button:hover,
+.grid-item18 > button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.btn-div{
+    display: flex;
+    justify-content:center;
+}
+/* p,h2{
+    text-align: center;
+} */
